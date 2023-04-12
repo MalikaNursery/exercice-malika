@@ -1,0 +1,65 @@
+body{
+    background-image: url("paysage.jpg");
+    background-size: cover;
+
+}
+div{
+    background-image: url(images.fleure.jpg);
+    background-size: cover;
+}
+
+body>h2, ol{
+    color: white;
+
+} 
+
+/* L'élément avec l'identifiant id="lion" */
+#lion{
+    color: red;
+
+    
+}
+/* L'élément avec l'identifiant id="chat" */
+
+#chat{
+color:orange;
+
+
+}
+/* L'élément avec l'identifiant id="puma" */
+#puma{
+    color: brown;
+}
+/* L'élément avec l'identifiant id="cougare" */
+#cougar{
+    color:blueviolet;
+}
+/* L'élément avec l'identifiant id="lynx" */
+#lynx{
+    color: rgb(51, 190, 51);
+}
+section{
+    display: flex;
+    justify-content:space-around;
+    
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+
+ol{
+    background-color: rgba(245, 245, 220, 0.781);
+    border-radius: 15px;
+    font-size:  80px;
+    width: 60%;
+    padding: 90px;
+}
+
+body>h2{
+    text-align: center; 
+    font-size: 100px;
+
+}
